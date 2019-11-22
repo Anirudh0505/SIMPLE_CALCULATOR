@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView_answer"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="400dp"
+        android:text="0"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <!--take the input first number-->
+    <EditText
+        android:id="@+id/editText_first_no"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="40dp"
+        android:inputType="numberDecimal" />
+    <!-- for messege input first number-->
+    <TextView
+        android:id="@+id/textView_first_no"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:text="First number"
+        android:textSize="20dp" />
+
+    <!--view messege -->
+    <TextView
+        android:id="@+id/textView_second_no"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:text="Second number"
+        android:textSize="20dp" />
+
+    <!-- take input for second number -->
+    <EditText
+        android:id="@+id/editText_second_no"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="90dp"
+        android:inputType="numberDecimal"
+        tools:ignore="MissingConstraints" />
+
+    <!-- button for run add logic and view result -->
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="200dp"
+        android:text="+" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="200dp"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="250dp"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="250dp"
+        android:text="/" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="300dp"
+        android:text="." />
+
+</RelativeLayout>
